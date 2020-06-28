@@ -2,7 +2,7 @@ server:
   port: 8090 #端口
 spring:
   application:
-    name: usian-item-service #注册eureka的名字
+    name: usian-item-service22 #注册eureka的名字
   datasource: #配置数据源
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.50.140:8066/usian?characterEncoding=UTF-8
