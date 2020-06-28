@@ -2,12 +2,12 @@ server:
   port: 8090 #端口
 spring:
   application:
-    name: usian-item-service22 #注册eureka的名字
+    name: usian-item-service222 #注册eureka的名字
   datasource: #配置数据源
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.50.140:8066/usian?characterEncoding=UTF-8
     username: root
-    password: 123
+    password: 1111
     type: com.alibaba.druid.pool.DruidDataSource
   #配置redis集群端口和地址
   redis:
