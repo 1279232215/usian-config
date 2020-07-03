@@ -3,9 +3,9 @@ server:
 spring:
   application:
     name: usian-item-service #注册eureka的名字
-  datasource: #配置数据源
+  datasource: #配置数据源192.168.50.140:8066mycat
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.50.140:8066/usian?characterEncoding=UTF-8
+    url: jdbc:mysql://127.0.0.1:3306/usian?characterEncoding=UTF-8
     username: root
     password: 1111
     type: com.alibaba.druid.pool.DruidDataSource
