@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/usian?characterEncoding=UTF-8
     username: root
-    password: 1111
+    password: 1234
     type: com.alibaba.druid.pool.DruidDataSource
   #配置redis集群端口和地址
   redis:
